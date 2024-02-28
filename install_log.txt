@@ -1,0 +1,6 @@
+Error at Wed, Feb 28, 2024  1:14:41 AM: Unsupported operating system. Please install python3 manually.
+Error at Wed, Feb 28, 2024  1:14:49 AM: Unsupported operating system. Please install python3 manually.
+Error at Wed, Feb 28, 2024  1:14:54 AM: Unsupported operating system. Please install python3 manually.
+Error at Wed, Feb 28, 2024  1:16:45 AM: Unable to activate the virtual environment.
+Error at Wed, Feb 28, 2024  1:31:11 AM: Error running operate.
+Error at Wed, Feb 28, 2024  1:32:58 AM: Error running python -m venv venv.
