@@ -106,7 +106,7 @@ fi
 run_script "python -m venv venv"
 
 # Activate the virtual environment
-source venv/Scripts/Activate || { log_error "Unable to activate the virtual environment."; exit 1; }
+source venv/bin/activate || { log_error "Unable to activate the virtual environment."; exit 1; }
 
 # Install project requirements
 run_script "pip install -r requirements.txt"
