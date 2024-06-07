@@ -45,7 +45,20 @@ pip install self-operating-computer
 ```
 operate
 ```
-3. **Enter your OpenAI Key**: If you don't have one, you can obtain an OpenAI key [here](https://platform.openai.com/account/api-keys)
+Use "winpty": If you're running this in Git Bash or MinGW, you can precede your command with winpty to workaround this issue. For example:
+```
+winpty python your_script.py
+```
+try to run:
+```
+winpty operate
+```
+
+you might also need ```
+pip install --upgrade setuptools
+```
+
+1. **Enter your OpenAI Key**: If you don't have one, you can obtain an OpenAI key [here](https://platform.openai.com/account/api-keys)
 
 <div align="center">
   <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/key.png" width="300"  style="margin: 10px;"/>
